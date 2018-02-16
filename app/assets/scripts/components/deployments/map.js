@@ -161,7 +161,7 @@ export default class DeploymentsMap extends React.Component {
       type: 'circle',
       source,
       paint: {
-        'circle-color': '#5890FF',
+        'circle-color': '#FF9966',
         'circle-radius': [
           'interpolate',
           ['exponential', 1],
@@ -266,7 +266,7 @@ export default class DeploymentsMap extends React.Component {
                   <div>
                     <label className='form__label'>Key</label>
                     <dl className='legend__dl legend__dl--colors'>
-                      <dt className='color color--blue'>blue</dt>
+                      <dt className='color color--salmon'>orange</dt>
                       <dd>Deployed Operations (FACT, RDRT/RIT, HeOps)</dd>
                     </dl>
                   </div>
